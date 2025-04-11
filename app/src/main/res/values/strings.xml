@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kalkulator Serat</string>
+    <string name="input_age">Usia</string>
+    <string name="input_fiber">Asupan Serat Harian (g)</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="male">Pria</string>
+    <string name="female">Wanita</string>
+    <string name="calculate">Hitung</string>
+    <string name="share">Bagikan</string>
+    <string name="invalid_input">Silakan isi semua data dengan benar.</string>
+    <string name="ideal">Ideal</string>
+    <string name="low">Terlalu Rendah</string>
+    <string name="fiber_result">Rekomendasi: %1$d g\nStatus: %2$s</string>
+    <string name="error_processing">Terjadi kesalahan saat memproses data. Coba lagi.</string>
+    <string name="share_via">Bagikan melalui</string>
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="about_description">
+        Kalkulator Serat adalah aplikasi Android yang membantu menentukan apakah asupan serat harianmu sesuai dengan jumlah yang direkomendasikan.
+        \n\nAplikasi ini dibuat untuk mata kuliah Pemrograman untuk Perangkat Bergerak.
+        \n\nHak Cipta © 2024–2025. Seluruh hak dilindungi.
+    </string>
+</resources>
