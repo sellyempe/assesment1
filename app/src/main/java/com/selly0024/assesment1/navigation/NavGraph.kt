@@ -8,6 +8,7 @@ import androidx.navigation.compose.rememberNavController
 import com.selly0024.assesment1.ui.screen.AboutScreen
 import com.selly0024.assesment1.ui.screen.MainScreen
 
+
 @Composable
 fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
     NavHost(
