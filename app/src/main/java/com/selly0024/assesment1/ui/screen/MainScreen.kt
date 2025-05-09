@@ -102,12 +102,24 @@ fun MainScreen(navController: NavController) {
                     onClick = { gender = "male" }
                 )
                 Text(stringResource(R.string.male), modifier = Modifier.padding(end = 16.dp))
+                Image(
+                    painter = painterResource(id = R.drawable.pria),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(35.dp)
+                )
 
                 RadioButton(
                     selected = gender == "female",
                     onClick = { gender = "female" }
                 )
                 Text(stringResource(R.string.female))
+                Image(
+                    painter = painterResource(id = R.drawable.perempuan),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(35.dp)
+                )
             }
 
             Spacer(modifier = Modifier.height(12.dp))
